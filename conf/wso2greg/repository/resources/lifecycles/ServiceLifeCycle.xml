@@ -139,7 +139,7 @@
                             <!-- <execution forEvent="Publish" class="org.wso2.carbon.governance.registry.extensions.executors.apistore.ApiStoreExecutor">
                             </execution> -->
                             <execution forEvent="Publish" class="org.wso2.carbon.governance.registry.extensions.executors.apistore.RestServiceToAPIExecutor">
-                                <parameter name="apim.endpoint" value="http://localhost:9764/"/>
+                                <parameter name="apim.endpoint" value="http://test-wso2-stack:9764/"/>
                                 <parameter name="apim.username" value="admin"/>
                                 <parameter name="apim.password" value="admin"/>
                                 <parameter name="apim.env" value="dev"/>

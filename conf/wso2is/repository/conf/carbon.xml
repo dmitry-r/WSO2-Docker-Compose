@@ -59,7 +59,7 @@
        -->
     <ServerURL>local:/${carbon.context}/services/</ServerURL>
     <!--
-    <ServerURL>https://localhost:${carbon.management.port}${carbon.context}/services/</ServerURL>
+    <ServerURL>https://test-wso2-stack:${carbon.management.port}${carbon.context}/services/</ServerURL>
     -->
      <!--
      The URL of the index page. This is where the user will be redirected after signing in to the
@@ -613,8 +613,8 @@
 
 	<!--ExternalAPIManager>
 
-		<APIGatewayURL>http://localhost:8281</APIGatewayURL>
-		<APIPublisherURL>http://localhost:8281/publisher</APIPublisherURL>
+		<APIGatewayURL>http://test-wso2-stack:8281</APIGatewayURL>
+		<APIPublisherURL>http://test-wso2-stack:8281/publisher</APIPublisherURL>
 
 	</ExternalAPIManager-->
 

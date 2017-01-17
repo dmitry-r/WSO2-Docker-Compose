@@ -19,7 +19,7 @@
     <ServiceProviders>
         <ServiceProvider>
             <Issuer>wso2.my.dashboard</Issuer>
-            <AssertionConsumerService>https://localhost:9443/dashboard/acs</AssertionConsumerService>
+            <AssertionConsumerService>https://test-wso2-stack:9443/dashboard/acs</AssertionConsumerService>
             <SignAssertion>true</SignAssertion>
             <SignResponse>true</SignResponse>
             <EnableAttributeProfile>false</EnableAttributeProfile>
@@ -39,7 +39,7 @@
 
         <ServiceProvider>
             <Issuer>service-provider-apim</Issuer>
-            <AssertionConsumerService>https://localhost:9448/acs</AssertionConsumerService>
+            <AssertionConsumerService>https://test-wso2-stack:9448/acs</AssertionConsumerService>
             <SignAssertion>true</SignAssertion>
             <SignResponse>true</SignResponse>
             <EnableAttributeProfile>false</EnableAttributeProfile>
@@ -59,7 +59,7 @@
 
         <ServiceProvider>
             <Issuer>service-provider-esb</Issuer>
-            <AssertionConsumerService>https://localhost:9444/acs</AssertionConsumerService>
+            <AssertionConsumerService>https://test-wso2-stack:9444/acs</AssertionConsumerService>
             <SignAssertion>true</SignAssertion>
             <SignResponse>true</SignResponse>
             <EnableAttributeProfile>false</EnableAttributeProfile>
@@ -79,7 +79,7 @@
 
         <ServiceProvider>
             <Issuer>service-provider-as</Issuer>
-            <AssertionConsumerService>https://localhost:9449/acs</AssertionConsumerService>
+            <AssertionConsumerService>https://test-wso2-stack:9449/acs</AssertionConsumerService>
             <SignAssertion>true</SignAssertion>
             <SignResponse>true</SignResponse>
             <EnableAttributeProfile>false</EnableAttributeProfile>
@@ -99,7 +99,7 @@
 
         <ServiceProvider>
             <Issuer>service-provider-brs</Issuer>
-            <AssertionConsumerService>https://localhost:9446/acs</AssertionConsumerService>
+            <AssertionConsumerService>https://test-wso2-stack:9446/acs</AssertionConsumerService>
             <SignAssertion>true</SignAssertion>
             <SignResponse>true</SignResponse>
             <EnableAttributeProfile>false</EnableAttributeProfile>
@@ -119,7 +119,7 @@
 
         <ServiceProvider>
             <Issuer>service-provider-dss</Issuer>
-            <AssertionConsumerService>https://localhost:9447/acs</AssertionConsumerService>
+            <AssertionConsumerService>https://test-wso2-stack:9447/acs</AssertionConsumerService>
             <SignAssertion>true</SignAssertion>
             <SignResponse>true</SignResponse>
             <EnableAttributeProfile>false</EnableAttributeProfile>
@@ -139,7 +139,7 @@
 
         <ServiceProvider>
             <Issuer>service-provider-greg</Issuer>
-            <AssertionConsumerService>https://localhost:9445/acs</AssertionConsumerService>
+            <AssertionConsumerService>https://test-wso2-stack:9445/acs</AssertionConsumerService>
             <SignAssertion>true</SignAssertion>
             <SignResponse>true</SignResponse>
             <EnableAttributeProfile>false</EnableAttributeProfile>

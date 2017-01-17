@@ -284,21 +284,21 @@
     <transportReceiver name="jms" class="org.apache.axis2.transport.jms.JMSListener">
         <parameter name="myTopicConnectionFactory" locked="false">
         	<parameter name="java.naming.factory.initial" locked="false">org.apache.activemq.jndi.ActiveMQInitialContextFactory</parameter>
-        	<parameter name="java.naming.provider.url" locked="false">tcp://localhost:61616</parameter>
+        	<parameter name="java.naming.provider.url" locked="false">tcp://test-wso2-stack:61616</parameter>
         	<parameter name="transport.jms.ConnectionFactoryJNDIName" locked="false">TopicConnectionFactory</parameter>
 		    <parameter name="transport.jms.ConnectionFactoryType" locked="false">topic</parameter>
         </parameter>
 
         <parameter name="myQueueConnectionFactory" locked="false">
         	<parameter name="java.naming.factory.initial" locked="false">org.apache.activemq.jndi.ActiveMQInitialContextFactory</parameter>
-        	<parameter name="java.naming.provider.url" locked="false">tcp://localhost:61616</parameter>
+        	<parameter name="java.naming.provider.url" locked="false">tcp://test-wso2-stack:61616</parameter>
         	<parameter name="transport.jms.ConnectionFactoryJNDIName" locked="false">QueueConnectionFactory</parameter>
 		    <parameter name="transport.jms.ConnectionFactoryType" locked="false">queue</parameter>
         </parameter>
 
         <parameter name="default" locked="false">
         	<parameter name="java.naming.factory.initial" locked="false">org.apache.activemq.jndi.ActiveMQInitialContextFactory</parameter>
-        	<parameter name="java.naming.provider.url" locked="false">tcp://localhost:61616</parameter>
+        	<parameter name="java.naming.provider.url" locked="false">tcp://test-wso2-stack:61616</parameter>
         	<parameter name="transport.jms.ConnectionFactoryJNDIName" locked="false">QueueConnectionFactory</parameter>
 		    <parameter name="transport.jms.ConnectionFactoryType" locked="false">queue</parameter>
         </parameter>
@@ -514,7 +514,7 @@
         -->
         <parameter name="membershipScheme">wka</parameter>
         <!--<parameter name="licenseKey">xxx</parameter>-->
-        <!--<parameter name="mgtCenterURL">http://localhost:8081/mancenter/</parameter>-->
+        <!--<parameter name="mgtCenterURL">http://test-wso2-stack:8081/mancenter/</parameter>-->
 
         <!--
          The clustering domain/group. Nodes in the same group will belong to the same multicast
@@ -616,7 +616,7 @@
     -->
     <!--<transaction timeout="30000">
         <parameter name="java.naming.factory.initial">org.apache.activemq.jndi.ActiveMQInitialContextFactory</parameter>
-        <parameter name="java.naming.provider.url">tcp://localhost:61616</parameter>
+        <parameter name="java.naming.provider.url">tcp://test-wso2-stack:61616</parameter>
         <parameter name="UserTransactionJNDIName">UserTransaction</parameter>
         <parameter name="TransactionManagerJNDIName">TransactionManager</parameter>
     </transaction>-->

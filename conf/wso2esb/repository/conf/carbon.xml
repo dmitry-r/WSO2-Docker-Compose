@@ -684,8 +684,8 @@
 
 	<!-- <ExternalAPIManager>
 
-		<APIGatewayURL>http://localhost:9448</APIGatewayURL>
-		<APIPublisherURL>http://localhost:9448/publisher</APIPublisherURL>
+		<APIGatewayURL>http://test-wso2-stack:9448</APIGatewayURL>
+		<APIPublisherURL>http://test-wso2-stack:9448/publisher</APIPublisherURL>
 
 	</ExternalAPIManager> -->
 

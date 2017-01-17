@@ -269,7 +269,7 @@
         </filter>
     </handler>
 
-    <!--remoteInstance url="https://localhost:9443/registry">
+    <!--remoteInstance url="https://test-wso2-stack:9443/registry">
 	<id>instanceid</id>
 	    <username>username</username>
 	    <password>password</password>
@@ -278,7 +278,7 @@
 
     <!-- This defines the Atom based remote registry instance configuration -->
 
-    <!--remoteInstance url="https://localhost:9443/registry">
+    <!--remoteInstance url="https://test-wso2-stack:9443/registry">
         <id>instanceid</id>
         <username>username</username>
         <password>password</password>
@@ -288,7 +288,7 @@
 
     <!-- This defines the JDBC based remote registry instance configuration  -->
 
-    <!--remoteInstance url="https://localhost:9443/registry">
+    <!--remoteInstance url="https://test-wso2-stack:9443/registry">
         <id>instanceid</id>
         <dbConfig>wso2registry</dbConfig>
         <readOnly>false</readOnly>
@@ -397,7 +397,7 @@
             <trigger cron="0/10 * * * * ?"/>
             <property key="userName" value="admin" />
             <property key="password" value="admin" />
-            <property key="serverUrl" value="https://localhost:9444/services/"/>
+            <property key="serverUrl" value="https://test-wso2-stack:9444/services/"/>
             <property key="proxyArtifactKey" value="proxy" />
             <property key="sequenceArtifactKey" value="sequence" />
             <property key="endpointArtifactKey" value="endpoint" />
